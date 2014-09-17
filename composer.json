@@ -1,0 +1,21 @@
+{
+    "name": "seb86/WooCommerce-Payment-Gateway-Boilerplate",
+    "description": "WooCommerce Payment Gateway Boilerplate",
+    "keywords": ["wordpress", "plugin", "woocommerce", "gateway", "payment", "boilerplate"],
+    "homepage": "http://www.sebastiendumont.com",
+    "license": "GPL-2.0+",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "Sebastien Dumont",
+            "homepage": "http://www.sebastiendumont.com"
+        },
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "minimum-stability": "dev"
+}

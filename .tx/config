@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[woocommerce-payment-gateway-boilerplate.woocommerce-payment-gateway-boilerplate]
+file_filter = woocommerce-payment-gateway-boilerplate/languages/woocommerce-payment-gateway-boilerplate-<lang>.po
+source_file = woocommerce-payment-gateway-boilerplate/languages/woocommerce-payment-gateway-boilerplate.pot
+source_lang = en_US
+type = PO

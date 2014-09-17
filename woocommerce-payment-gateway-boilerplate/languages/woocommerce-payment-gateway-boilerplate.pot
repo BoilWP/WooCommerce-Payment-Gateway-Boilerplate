@@ -1,0 +1,283 @@
+# WordPress Plugin Boilerplate Copyright (c) {2014}
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Payment Gateway Boilerplate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/seb86/WordPress-Plugin-Boilerplate/"
+"issues\n"
+"POT-Creation-Date: 2014-09-17 21:23+0100\n"
+"PO-Revision-Date: 2014-09-17 21:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: WP-Translations <wpt@wp-translations.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/views/admin-options.php:1
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:29
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:192
+msgid "Gateway Name"
+msgstr ""
+
+#: includes/admin/views/admin-options.php:5
+msgid "Getting started"
+msgstr ""
+
+#: includes/admin/views/admin-options.php:6
+msgid "A payment gateway description can be placed here."
+msgstr ""
+
+#: includes/admin/views/admin-options.php:8
+msgid "Gateway Status"
+msgstr ""
+
+#: includes/admin/views/admin-options.php:10
+msgid "Debug Enabled?"
+msgstr ""
+
+#: includes/admin/views/admin-options.php:11
+msgid "Sandbox Enabled?"
+msgstr ""
+
+#: includes/admin/views/admin-options.php:15
+msgid "Sign up for Gateway Name"
+msgstr ""
+
+#: includes/admin/views/admin-options.php:15
+msgid "Learn more"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:41
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:86
+msgid ""
+"Developers: Please make sure that you're including jQuery and there are no "
+"JavaScript errors on the page."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:82
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:150
+msgid ""
+"Sorry, the minimum allowed order total is 0.50 to use this payment method."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:147
+#, php-format
+msgid "%s - Subscription for \"%s\""
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:147
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:198
+#, php-format
+msgid "(Order %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:158
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:205
+#, php-format
+msgid "Gateway name payment approved (ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:163
+msgid "Gateway name payment declined"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:165
+msgid "Payment was declined - please try again."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:198
+#, php-format
+msgid "%s - Pre-order for \"%s\""
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:208
+msgid "Payment was declined - the customer need to try another card."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate-add-ons.php:211
+#, php-format
+msgid "Gateway name Transaction Failed (%s)"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:27
+msgid "Pay with Gateway Name"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:30
+msgid "Take payments via Gateway Name."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:136
+#, php-format
+msgid ""
+"Gateway Name Error: Gateway Name requires PHP 5.3 and above. You are using "
+"version %s."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:141
+msgid "Gateway Name Error: Please enter your public and private keys"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:146
+#, php-format
+msgid ""
+"Gateway Name is enabled, but the <a href=\"%s\">force SSL option</a> is "
+"disabled; your checkout may not be secure! Please enable SSL and ensure your "
+"server has a valid SSL certificate - Gateway Name will only work in sandbox "
+"mode."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:182
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:183
+msgid "Enable Gateway Name"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:189
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:191
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:196
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:198
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:203
+msgid "Instructions"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:205
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:210
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:212
+msgid "Enable logging"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:214
+#, php-format
+msgid "Log Gateway name events inside <code>%s</code>"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:217
+msgid "Sandbox"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:218
+msgid "Enable Sandbox Mode"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:220
+msgid ""
+"Place the payment gateway in sandbox mode using sandbox API keys (real "
+"payments will not be taken)."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:224
+msgid "Sandbox Private Key"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:226
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:233
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:240
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:247
+msgid "Get your API keys from your Gateway Name account."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:231
+msgid "Sandbox Public Key"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:238
+msgid "Private Key"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:245
+msgid "Public Key"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:261
+msgid "Thank you - your order is now pending payment."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:277
+msgid "TEST MODE ENABLED."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:352
+msgid "Extra Details"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:391
+#, php-format
+msgid "Gateway Name payment approved (ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:419
+msgid "Gateway Name payment declined"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:456
+msgid "Payment refunded via Gateway Name."
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:458
+#, php-format
+msgid "Refunded %s - Refund ID: %s"
+msgstr ""
+
+#: includes/class-wc-gateway-payment-gateway-boilerplate.php:467
+msgid "Error in refunding the order."
+msgstr ""
+
+#: woocommerce-payment-gateway-boilerplate.php:141
+#: woocommerce-payment-gateway-boilerplate.php:153
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: woocommerce-payment-gateway-boilerplate.php:201
+msgid "Payment Settings"
+msgstr ""
+
+#: woocommerce-payment-gateway-boilerplate.php:223
+msgid "Documentation"
+msgstr ""
+
+#: woocommerce-payment-gateway-boilerplate.php:324
+msgid "Currency Name"
+msgstr ""
+
+#: woocommerce-payment-gateway-boilerplate.php:352
+#, php-format
+msgid ""
+"Sorry, <strong>WooCommerce %s</strong> requires WooCommerce to be installed "
+"and activated first. Please install <a href=\"%s\">WooCommerce</a> first."
+msgstr ""
+
+#: woocommerce-payment-gateway-boilerplate.php:362
+#, php-format
+msgid ""
+"WooCommerce %s depends on version 2.2 and up of WooCommerce for this gateway "
+"to work! Please upgrade before activating."
+msgstr ""
